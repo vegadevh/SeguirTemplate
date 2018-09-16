@@ -1,18 +1,21 @@
+/*
+#4b379a RGB rgb(75, 55, 154) 
+#be5ede RGB rgb(190, 94, 222)
+*/
 body {
     background-color: #4b379a;
 }
 
 .cont {
-    background-image: url(img/img.jpg);
+    background-image: linear-gradient(to right, rgba(75, 55, 154, 0.8), rgba(190, 94, 222, 0.8)), url(img/img.jpg);
     background-size: cover;
-    background-repeat: no-repeat; 
-    /*
-    background-image: linear-gradient(to right, #4b379a, #be5ede);
-    */
+    background-repeat: no-repeat;
 }
 
 .logo {
     text-shadow: 0.08em 0.08em #000000;
+    /*For icon*/
+    font-size: 3em;
 }
 
 .logo a {
@@ -24,6 +27,8 @@ body {
     display: grid;
     grid-template-columns: auto auto;
     margin: 2em;
+    align-items: center;
+    padding: 1em;
 }
 
 .menu ul li {
@@ -41,7 +46,7 @@ body {
 .b_central {
     display: inline-block;
     border: 1px solid #ffffff;
-    border-radius: 1em;
+    border-radius: 2em;
     padding: 1em 3em;
     text-decoration: none;
     color: #ffffff;
@@ -62,5 +67,55 @@ body {
 }
 
 .b_central:hover {
-    background-image: linear-gradient(to bottom right, #4b379a, #be5ede)
+    background-image: linear-gradient(to bottom right, #4b379a, #be5ede);
+}
+
+.container {
+    margin: 5em 10em;
+}
+
+main {
+    background-color: #ffffff;
+}
+/* Contenedor del abstract */
+.reason {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 2em;
+    justify-content: center;
+    align-items: center;
+}
+
+.reason_ {
+    display: inline-block
+}
+.b_1 {
+    display: inline-block;
+    color: #ffffff;
+    padding: 1em 3em;
+    text-decoration: none;
+    border-radius: 2em;
+    background-image: linear-gradient(to bottom right, #4b379a, #be5ede);
+}
+
+.imagen_reason {
+    width: 30em;
+    border-radius: 2em;
+}
+
+.paralax {  
+    color: #ffffff;
+    margin-left: 50%;
+    padding: 5em;
+}
+
+.back_para {
+    background-image: url(img/img1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.abstract {
+    text-shadow: 0.08em 0.08em #000000;
 }
