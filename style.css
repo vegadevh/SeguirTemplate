@@ -6,6 +6,7 @@ body {
     background-color: #4b379a;
 }
 
+
 .cont {
     background-image: linear-gradient(to right, rgba(75, 55, 154, 0.8), rgba(190, 94, 222, 0.8)), url(img/img.jpg);
     background-size: cover;
@@ -100,6 +101,7 @@ main {
 
 .imagen_reason {
     width: 30em;
+    height: auto;
     border-radius: 2em;
 }
 
@@ -118,4 +120,81 @@ main {
 
 .abstract {
     text-shadow: 0.08em 0.08em #000000;
+}
+/* Gallery */
+
+.g1 {
+    border-radius: 0.6em;
+    padding: 10em 2em; 
+    margin-top: 3em;
+    margin-left: 2em;
+    background-image: url(img/g1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.g2 {
+    border-radius: 0.6em;
+    padding: 10em 2em;
+    margin-top: 3em;
+    margin-right: 2em;
+    background-image: url(img/g2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.g3 {
+    border-radius: 0.6em;
+    padding: 10em 2em;
+    margin-bottom: 3em;
+    margin-left: 2em;
+    background-image: url(img/g3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.g4 {
+    border-radius: 0.6em;
+    padding: 10em 2em;
+    margin-bottom: 3em;
+    margin-right: 2em;
+    background-image: url(img/g4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.gallery div p {
+    visibility: hidden;
+    color: #ffffff;
+}
+
+.gallery div:hover p{
+    visibility: visible;
+}
+
+.g1:hover {
+    background-image: linear-gradient(to right, rgb(75, 55, 154), rgb(190, 94, 222));
+}
+
+.g2:hover {
+    background-image: linear-gradient(to right, rgb(75, 55, 154), rgb(190, 94, 222));
+}
+
+.g3:hover {
+    background-image: linear-gradient(to right, rgb(75, 55, 154), rgb(190, 94, 222));
+}
+
+.g4:hover {
+    background-image: linear-gradient(to right, rgb(75, 55, 154), rgb(190, 94, 222));
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-row-gap: 3em;
+    grid-column-gap: 3em;
 }
