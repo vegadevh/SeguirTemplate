@@ -2,10 +2,14 @@
 #4b379a RGB rgb(75, 55, 154) 
 #be5ede RGB rgb(190, 94, 222)
 */
+
 body {
     background-color: #4b379a;
 }
 
+* {
+    box-sizing: border-box;
+  }
 
 .cont {
     background-image: linear-gradient(to right, rgba(75, 55, 154, 0.8), rgba(190, 94, 222, 0.8)), url(img/img.jpg);
@@ -85,10 +89,11 @@ main {
     padding: 2em;
     justify-content: center;
     align-items: center;
+    grid-column-gap: 2em;
 }
 
 .reason_ {
-    display: inline-block
+    display: inline-block;
 }
 .b_1 {
     display: inline-block;
@@ -108,7 +113,7 @@ main {
 .paralax {  
     color: #ffffff;
     margin-left: 50%;
-    padding: 5em;
+    padding: 5em 0em 5em 0em;
 }
 
 .back_para {
@@ -197,4 +202,43 @@ main {
     grid-template-columns: auto auto;
     grid-row-gap: 3em;
     grid-column-gap: 3em;
+}
+/* Formulario */
+
+.formulario {
+    background-image: linear-gradient(to right,  rgba(75, 55, 154, 0.8), rgba(190, 94, 222, 0.8)), url(img/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 70%;
+    justify-content: center;
+    padding: 1em;
+}
+
+.intro_M p {
+    color: #ffffff;
+}
+
+.intro_M h4 {
+    color: #ffffff;
+}
+
+.area {
+    display: block;
+    margin-bottom: 1em;
+    width: 100%;
+}
+
+.b_form {
+    display: inline-block;
+    text-decoration: none;
+    color: #000000;
+    border: 1px solid #ffffff;
+    border-radius: 2em; 
+    padding: 1em 2em;
+    background-color: #ffffff;
+}
+
+.b_form:hover {
+    background-image: linear-gradient(to right,  rgba(75, 55, 154, 0.8), rgba(190, 94, 222, 0.8))
 }
