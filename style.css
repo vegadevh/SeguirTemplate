@@ -76,7 +76,7 @@ body {
 }
 
 .container {
-    margin: 5em 10em;
+    margin: 5em 8em;
 }
 
 main {
@@ -90,6 +90,7 @@ main {
     justify-content: center;
     align-items: center;
     grid-column-gap: 2em;
+    background-color: #f9f9ff;
 }
 
 .reason_ {
@@ -202,6 +203,7 @@ main {
     grid-template-columns: auto auto;
     grid-row-gap: 3em;
     grid-column-gap: 3em;
+    background-color: #f9f9ff;
 }
 /* Formulario */
 
@@ -227,6 +229,20 @@ main {
     display: block;
     margin-bottom: 1em;
     width: 100%;
+    background: transparent;
+    border: 1px solid #be5ede;
+    border-radius: 2px;
+    height: 4em;
+}
+
+.input_f {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 2em;
+}
+
+.area::placeholder{
+    color:#ffffff;
 }
 
 .b_form {
@@ -241,4 +257,74 @@ main {
 
 .b_form:hover {
     background-image: linear-gradient(to right,  rgba(75, 55, 154, 0.8), rgba(190, 94, 222, 0.8))
+}
+
+/* Suscribe */
+.suscription {
+    background-color: #f9f9ff;
+    padding: 6em;
+}
+
+.incrip {
+    display: grid;
+    grid-template-columns: 70% auto;
+    background-color:#ffffff;
+    padding: 0.3em;
+    border: 1px solid #ffffff;
+    border-radius: 2em;
+}
+
+.text_s {
+    height: 4em;
+    border: 1px solid #ffffff;
+    border-radius: 2em;
+}
+
+.sus_margin {
+    margin-left: 10em;
+    margin-right: 10em;
+}
+/* Footer */
+
+footer {
+    margin: 0%;
+    background-color: #222222;
+    padding: 5em;
+}
+
+.footer_list ul li{
+    display: inline-block;
+    color: #ffffff;
+    padding: 0.5em;
+}
+
+.footer_list ul li a{
+    display: inline-block;
+    color: #ffffff;
+    padding: 0.5em;
+}
+
+.footer_list ul li a:hover{
+    color: #be5ede;
+}
+
+.footer_list ul li:hover{
+    color: #be5ede;
+}
+
+.copy {
+    display: inline;
+    color: #ffffff;
+}
+
+.footer_color {
+    color: #be5ede;
+}
+
+.fa-heart {
+    color: #be5ede;
+}
+
+.By_creator {
+    text-decoration: none;
 }
