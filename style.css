@@ -20,7 +20,7 @@ body {
 }
 
 p, h1, h4, h3,a {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 100;
 }
 
@@ -60,11 +60,6 @@ p, h1, h4, h3,a {
     text-shadow: 0.08em 0.08em #000000;
 }
 
-.lnr {
-    font-family: Linearicons-Free;
-    content: \e870;
-}
-
 .b_central {
     display: inline-block;
     border: 1px solid #ffffff;
@@ -72,6 +67,7 @@ p, h1, h4, h3,a {
     padding: 1em 3em;
     text-decoration: none;
     color: #ffffff;
+    margin: 2em;
 }
 
 .portada {
@@ -85,10 +81,14 @@ p, h1, h4, h3,a {
 
 .portada h4 {
     text-transform: uppercase;
+    margin: 0%
 }
 
 .portada h1 {
-    text-transform: uppercase;
+    text-transform: capitalize;
+    margin: 0%;
+    font-size: 5em;
+    font-weight: 100;
 }
 
 .fa-arrow-right {
