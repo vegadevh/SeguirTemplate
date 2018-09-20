@@ -19,6 +19,11 @@ body {
     border-top-left-radius: 2em;
 }
 
+p, h1, h4, h3,a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
 .logo {
     text-shadow: 0.08em 0.08em #000000;
     /*For icon*/
@@ -44,10 +49,20 @@ body {
     padding: 1em;
 }
 
+.tittle {
+    font-size: 4em;
+    margin: 0.5em;
+}
+
 .menu ul li a {
     text-decoration: none;
     color: #ffffff;
     text-shadow: 0.08em 0.08em #000000;
+}
+
+.lnr {
+    font-family: Linearicons-Free;
+    content: \e870;
 }
 
 .b_central {
@@ -62,11 +77,18 @@ body {
 .portada {
     display: flex;
     color: #ffffff;
-    text-shadow: 0.08em 0.08em #000000;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 2em;
+}
+
+.portada h4 {
+    text-transform: uppercase;
+}
+
+.portada h1 {
+    text-transform: uppercase;
 }
 
 .fa-arrow-right {
@@ -269,7 +291,7 @@ main {
 
 .incrip {
     display: grid;
-    grid-template-columns: 70% auto;
+    grid-template-columns: 60% auto;
     background-color:#ffffff;
     padding: 0.3em;
     border: 1px solid #ffffff;
